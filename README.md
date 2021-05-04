@@ -61,6 +61,21 @@ help build a pooling mechanism.
 
 ## Model training && Evaluation 
 
+We conduct tow experiment with different optimization algorithm
+Stochastic gradient descent (SGD) and Adam   
+
+Experiment-1
+Experiment hyperparameter
+The research used Stochastic gradient descent (SGD) with  Momentum.
+We used the same learning rate, learning decay and  momentum.
+
+Experiment-2
+Experiment hyperparameter
+We chose to try the Adam optimization algorithm, 
+with the command value for the parameters  β1,β2
+
+
+
 
 ## Setup  
 ---
