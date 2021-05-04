@@ -88,18 +88,21 @@ Stochastic gradient descent (SGD) and Adam
 
 - Experiment-2 - [Experiment 2 Adam.pdf](https://github.com/1amitos1/AbuseDetectionSystem_demo/files/6423210/Experiment.2.Adam.pdf)
 ### Evaluation
-We evaluate our proposed model on five Dataset.
-1-ADS data set
+- Full Evaluation report [Model evaluation report.pdf](https://github.com/1amitos1/AbuseDetectionSystem_demo/files/6423215/Model.evaluation.report.pdf)
 
-2-DCSASS Abuse Dataset
+- We evaluate our proposed model on five Dataset.
+
+  1-ADS data set
+
+  2-DCSASS Abuse Dataset
  
-3-Automatic violence detection data set
+  3-Automatic violence detection data set
  
-4- DCSASS Abuse Dataset + Automatic violence detection data set 
+  4- DCSASS Abuse Dataset + Automatic violence detection data set 
 
-5-RWF real world fight dataset
+  5-RWF real world fight dataset
 
-- Model evaluation full report [Model evaluation report.pdf](https://github.com/1amitos1/AbuseDetectionSystem_demo/files/6423215/Model.evaluation.report.pdf)
+- F1 score result - ![res_f1_summary](https://user-images.githubusercontent.com/34807427/117053146-4a7a7f00-ad21-11eb-8c9d-74858d67efea.png)
 
 
 ## Setup  
