@@ -7,6 +7,7 @@ Provide a Deep Learning-Based real-time solution for nursing homes and hospitals
 * [Project highlights](#Project-highlights)
 * [Introduction ](#Introduction)
 * [Setup](#setup)
+* [Input-Output examples](#Input-Output-examples)
 ---
 
 ## Project highlights
@@ -41,7 +42,7 @@ Build prototype system ADS(Abuse detection system) for deploying models and test
 - Add the model to model data file
 
 
-## Input-Output examples:
+## Input-Output examples
 input
 
 ![input](https://user-images.githubusercontent.com/34807427/117035434-fcf41700-ad0c-11eb-9e6f-c0c6d542f3ef.gif)              
