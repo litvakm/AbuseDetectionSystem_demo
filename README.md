@@ -56,7 +56,7 @@ We work according to a machine learning methodology
 6. create more videos by using 5 data argumentation techniques
 7. split the data to Train, Val, Test as shown in table2
 
-
+ <img src="https://user-images.githubusercontent.com/34807427/117050368-f15d1c00-ad1d-11eb-85eb-d21343f74e55.png" width="300" height="300">
 
 
 ## Model architecture
@@ -73,30 +73,20 @@ help build a pooling mechanism.
 - Merging Block is composed of basic 3D CNNs, used to process information after self learned temporal pooling. 
 - Fully-connected layers generate output.
 
-
  <img src="https://user-images.githubusercontent.com/34807427/117047169-3c753000-ad1a-11eb-93a5-7825120596ca.png" width="550" height="400">
-
-
-
 
 
 ## Model training && Evaluation 
 ---
+### Model training
 We conduct tow experiment with different optimization algorithm
 Stochastic gradient descent (SGD) and Adam   
 
-Experiment-1
-Experiment hyperparameter
-The research used Stochastic gradient descent (SGD) with  Momentum.
-We used the same learning rate, learning decay and  momentum.
+Experiment-1 - [Experiment 1 SGD.pdf](https://github.com/1amitos1/AbuseDetectionSystem_demo/files/6423205/Experiment.1.SGD.pdf)
 
-Experiment-2
-Experiment hyperparameter
-We chose to try the Adam optimization algorithm, 
-with the command value for the parameters  β1,β2
-
-
-
+Experiment-2 - [Experiment 2 Adam.pdf](https://github.com/1amitos1/AbuseDetectionSystem_demo/files/6423210/Experiment.2.Adam.pdf)
+### Evaluation
+Model evaluation repor [Model evaluation report.pdf](https://github.com/1amitos1/AbuseDetectionSystem_demo/files/6423215/Model.evaluation.report.pdf)
 
 ## Setup  
 ---
