@@ -165,8 +165,8 @@ output
 
 ## Reference
 ---
-- Yolo_v3
-- DeepSort
-- RWF -
+- [Yolo_v3] (https://github.com/qqwweee/keras-yolo3)
+- [DeepSort] (https://github.com/nwojke/deep_sort)
+- [RWF] (https://github.com/mchengny/RWF2000-Video-Database-for-Violence-Detection/blob/master/README.md)
 
 
