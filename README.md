@@ -6,6 +6,8 @@ Provide a Deep Learning-Based real-time solution for nursing homes and hospitals
 ---
 * [Project highlights](#Project-highlights)
 * [Introduction ](#Introduction)
+* [Model training && Evaluation](Model training && Evaluation )
+* [Model architecture](Model-architecture)
 * [Setup](#setup)
 * [Input-Output examples](#Input-Output-examples)
 
@@ -37,10 +39,12 @@ Build prototype system ADS(Abuse detection system) for deploying models and test
 
 ### Our Main goal - provide an automated solution for detecting cases of abuse of the elderly.
 
+## Model architecture
 
--
--
--
+
+
+## Model training && Evaluation 
+
 
 ## Setup  
 ---
