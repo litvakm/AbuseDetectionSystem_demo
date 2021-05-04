@@ -9,6 +9,7 @@ Provide a Deep Learning-Based real-time solution for nursing homes and hospitals
 * [Data collection](#Data-collection)
 * [Model training && Evaluation](#Model-training-&&-Evaluation)
 * [Model architecture](#Model-architecture)
+* [ADS PIPELINE Demo](#ADS-PIPELINE-Demo)
 * [Setup](#setup)
 * [Input-Output examples](#Input-Output-examples)
 * [Reference](#Reference)
@@ -107,11 +108,29 @@ Stochastic gradient descent (SGD) and Adam
 ![res_f1_summary](https://user-images.githubusercontent.com/34807427/117053146-4a7a7f00-ad21-11eb-8c9d-74858d67efea.png)
 
 
-## Setup  
+## ADS PIPELINE Demo
 ---
-- first step downlaod yolo_v3 model
-  [Yolo_v3 model](https://drive.google.com/file/d/1IbR2LtlqQxOr5w9u8yIeFYWtLJHksguF/view?usp=sharing)
-- Add the model to model data file
+We implemented the following models in ours pipeline Yolo DeepSort ADS
+Processing steps:
+
+### First step:
+- We sample from the IP camera 2 frame set each set containing
+149 frame set, and then we saves the sampling video in a folder
+
+![First step](https://user-images.githubusercontent.com/34807427/117056502-0b4e2d00-ad25-11eb-9f83-a9bc9148d680.gif)
+
+### Second step:
+- Open sampling video folder and run yolo and DeepSort models to predict  tracking    bounding boxes in the video
+- Bluer each frame set by bounding boxes then save those video clips in a folder
+
+![Second step](https://user-images.githubusercontent.com/34807427/117056508-0d17f080-ad25-11eb-8119-d921dd36d9bd.gif)
+
+
+### Third step:
+- We open the video folder implement ads model preprocessing [resize shape, extract optical flow , uniform sampling to  64 frame for predication]
+- if the ads model identified the frame set as violence, we save the video clip and send it to the user email address     
+
+![Third step](https://user-images.githubusercontent.com/34807427/117056490-05f0e280-ad25-11eb-86b3-8706517114c2.gif)
 
 
 ## Input-Output examples
@@ -124,6 +143,15 @@ input
 output
 
 ![output](https://user-images.githubusercontent.com/34807427/117035426-fa91bd00-ad0c-11eb-93ff-6504835bee3e.gif)
+
+
+## Setup  
+---
+- first step downlaod yolo_v3 model
+  [Yolo_v3 model](https://drive.google.com/file/d/1IbR2LtlqQxOr5w9u8yIeFYWtLJHksguF/view?usp=sharing)
+- Add the model to model data file
+
+
 
 ## Reference
 ---
