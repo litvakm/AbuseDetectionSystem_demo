@@ -40,6 +40,7 @@ Build prototype system ADS(Abuse detection system) for deploying models and test
 ### Our Main goal - provide an automated solution for detecting cases of abuse of the elderly.
 
 ## Data collection
+---
 Data collection
 In order to train deep learning models, the first step is data collection
 We build data collection pipe and gather abuse video from the web
@@ -80,7 +81,7 @@ help build a pooling mechanism.
 
 
 ## Model training && Evaluation 
-
+---
 We conduct tow experiment with different optimization algorithm
 Stochastic gradient descent (SGD) and Adam   
 
@@ -105,6 +106,7 @@ with the command value for the parameters  β1,β2
 
 
 ## Input-Output examples
+---
 input
 
 ![input](https://user-images.githubusercontent.com/34807427/117035434-fcf41700-ad0c-11eb-9e6f-c0c6d542f3ef.gif)              
@@ -115,5 +117,6 @@ output
 ![output](https://user-images.githubusercontent.com/34807427/117035426-fa91bd00-ad0c-11eb-93ff-6504835bee3e.gif)
 
 ## Reference
+---
 
 
