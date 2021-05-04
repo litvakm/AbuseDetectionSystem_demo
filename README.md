@@ -14,7 +14,7 @@ Provide a Deep Learning-Based real-time solution for nursing homes and hospitals
 * [Model training && Evaluation](#Model-training-&&-Evaluation)
 * [Model architecture](#Model-architecture)
 * [ADS PIPELINE Demo](#ADS-PIPELINE-Demo)
-* [System overview](#System overview)
+* [System overview](#System-overview)
 * [Setup](#setup)
 * [Input-Output examples](#Input-Output-examples)
 * [Reference](#Reference)
@@ -93,6 +93,7 @@ Stochastic gradient descent (SGD) and Adam
 - Experiment-1 - [Experiment 1 SGD.pdf](https://github.com/1amitos1/AbuseDetectionSystem_demo/files/6423205/Experiment.1.SGD.pdf)
 
 - Experiment-2 - [Experiment 2 Adam.pdf](https://github.com/1amitos1/AbuseDetectionSystem_demo/files/6423210/Experiment.2.Adam.pdf)
+
 ### Evaluation
 - Full Evaluation report [Model evaluation report.pdf](https://github.com/1amitos1/AbuseDetectionSystem_demo/files/6423215/Model.evaluation.report.pdf)
 
@@ -115,8 +116,6 @@ Stochastic gradient descent (SGD) and Adam
 
 ## ADS PIPELINE Demo
 ---
-We implemented the following models in ours pipeline Yolo DeepSort ADS
-Processing steps:
 
 ### First step:
 - We sample from the IP camera 2 frame set each set containing
@@ -174,7 +173,7 @@ output
 - RWF (https://github.com/mchengny/RWF2000-Video-Database-for-Violence-Detection/blob/master/README.md)
 
 '''
-Ming Cheng, Kunjing Cai, and Ming Li. "RWF-2000: An Open Large Scale Video Database for Violence Detection." arXiv preprint arXiv:1911.05913 (2019).
+$ Ming Cheng, Kunjing Cai, and Ming Li. "RWF-2000: An Open Large Scale Video Database for Violence Detection." arXiv preprint arXiv:1911.05913 (2019).
 '''
 
 
