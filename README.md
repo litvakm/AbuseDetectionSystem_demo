@@ -1,6 +1,14 @@
 # Abuse Detection System
 ---
 Provide a Deep Learning-Based real-time solution for nursing homes and hospitals for detecting cases of abuse in the elderly population by analyzing security camera frames and performing real-time forecasting using three machine learning models YOLO, DeepSort, ADS
+
+## Table of contents
+
+* [Project highlights](#Project-highlights)
+* [Introduction ](#Introduction)
+* [Setup](#setup)
+---
+
 ## Project highlights
 -	Provide a Deep Learning-Based real-time solution for nursing homes and hospitals for detecting cases of abuse in the elderly population by analyzing security camera frames and performing real-time forecasting using three machine learning models YOLO, DeepSort, ADS
 -	Creating a new novel dataset ADS-dataset that contain worldwide videos
@@ -27,7 +35,7 @@ Build prototype system ADS(Abuse detection system) for deploying models and test
 -
 -
 
-## Installtion  
+## Setup  
 - first step downlaod yolo_v3 model
   [Yolo_v3 model](https://drive.google.com/file/d/1IbR2LtlqQxOr5w9u8yIeFYWtLJHksguF/view?usp=sharing)
 - Add the model to model data file
