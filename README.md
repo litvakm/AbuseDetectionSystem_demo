@@ -102,7 +102,9 @@ Stochastic gradient descent (SGD) and Adam
 
   5-RWF real world fight dataset
 
-- F1 score result - ![res_f1_summary](https://user-images.githubusercontent.com/34807427/117053146-4a7a7f00-ad21-11eb-8c9d-74858d67efea.png)
+- F1 score result 
+- 
+![res_f1_summary](https://user-images.githubusercontent.com/34807427/117053146-4a7a7f00-ad21-11eb-8c9d-74858d67efea.png)
 
 
 ## Setup  
