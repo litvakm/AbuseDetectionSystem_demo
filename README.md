@@ -13,11 +13,15 @@ Provide a Deep Learning-Based real-time solution for nursing homes and hospitals
 ## Project highlights
 ---
 -	Provide a Deep Learning-Based real-time solution for nursing homes and hospitals for detecting cases of abuse in the elderly population by analyzing security camera frames and performing real-time forecasting using three machine learning models YOLO, DeepSort, ADS
+
 -	Creating a new novel dataset ADS-dataset that contain worldwide videos
 clips of abuse capture by surveillance cameras in the real-world scenes 
+
 -	Design and implemented ML pipeline for video raw data to generate features, data augmentation techniques, and resampled datasets for model training.
+
 -	Build and train a machine learning model[ADS] based on MobileNet-SSD architecture with 3D-CNN and two-stream method [RGB, OPT].
 Training and evaluation of the model using AWS-SageMaker and TensorFlow frameworks. Achieved 87% in F1-score on DCSASS Abuse Dataset and 84%  on ADS Dataset.
+
 -	Combine all models to an overall system and deploying the system in the Streamlit web app that enables the user to get real-time notification alerts
 when an abuse event capture by the security camera.
 
@@ -31,7 +35,7 @@ Build and train deep learning models(according to a standard ML approach) to aut
 - Development
 Build prototype system ADS(Abuse detection system) for deploying models and test them in a real-time environment
 
-## Our Main goal - provide an automated solution for detecting cases of abuse of the elderly.
+### Our Main goal - provide an automated solution for detecting cases of abuse of the elderly.
 
 
 -
