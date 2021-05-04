@@ -56,6 +56,8 @@ We work according to a machine learning methodology
 6. create more videos by using 5 data argumentation techniques
 7. split the data to Train, Val, Test as shown in table2
 
+- Method and DB expleind -[method and DB expleind.pdf](https://github.com/1amitos1/AbuseDetectionSystem_demo/files/6423235/method.and.db.expleind.pdf)
+
  <img src="https://user-images.githubusercontent.com/34807427/117050368-f15d1c00-ad1d-11eb-85eb-d21343f74e55.png" width="300" height="300">
 
 
@@ -82,11 +84,12 @@ help build a pooling mechanism.
 We conduct tow experiment with different optimization algorithm
 Stochastic gradient descent (SGD) and Adam   
 
-Experiment-1 - [Experiment 1 SGD.pdf](https://github.com/1amitos1/AbuseDetectionSystem_demo/files/6423205/Experiment.1.SGD.pdf)
+- Experiment-1 - [Experiment 1 SGD.pdf](https://github.com/1amitos1/AbuseDetectionSystem_demo/files/6423205/Experiment.1.SGD.pdf)
 
-Experiment-2 - [Experiment 2 Adam.pdf](https://github.com/1amitos1/AbuseDetectionSystem_demo/files/6423210/Experiment.2.Adam.pdf)
+- Experiment-2 - [Experiment 2 Adam.pdf](https://github.com/1amitos1/AbuseDetectionSystem_demo/files/6423210/Experiment.2.Adam.pdf)
 ### Evaluation
-Model evaluation repor [Model evaluation report.pdf](https://github.com/1amitos1/AbuseDetectionSystem_demo/files/6423215/Model.evaluation.report.pdf)
+- Model evaluation report [Model evaluation report.pdf](https://github.com/1amitos1/AbuseDetectionSystem_demo/files/6423215/Model.evaluation.report.pdf)
+
 
 ## Setup  
 ---
