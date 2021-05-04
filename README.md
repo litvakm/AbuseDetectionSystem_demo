@@ -6,7 +6,7 @@ Provide a Deep Learning-Based real-time solution for nursing homes and hospitals
 ---
 * [Project highlights](#Project-highlights)
 * [Introduction ](#Introduction)
-* [Model training && Evaluation](Model training && Evaluation )
+* [Model training && Evaluation](Model-training-&&-Evaluation)
 * [Model architecture](Model-architecture)
 * [Setup](#setup)
 * [Input-Output examples](#Input-Output-examples)
