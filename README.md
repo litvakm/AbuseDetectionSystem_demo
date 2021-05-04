@@ -128,9 +128,11 @@ Processing steps:
 
 ### Third step:
 - We open the video folder implement ads model preprocessing [resize shape, extract optical flow , uniform sampling to  64 frame for predication]
+![Third step](https://user-images.githubusercontent.com/34807427/117056490-05f0e280-ad25-11eb-86b3-8706517114c2.gif)
+
 - if the ads model identified the frame set as violence, we save the video clip and send it to the user email address     
 
-![Third step](https://user-images.githubusercontent.com/34807427/117056490-05f0e280-ad25-11eb-86b3-8706517114c2.gif)
+![email](https://user-images.githubusercontent.com/34807427/117056968-93cccd80-ad25-11eb-9c8d-bd402e0fe378.png)
 
 
 ## Input-Output examples
