@@ -1,5 +1,9 @@
 # Abuse Detection System
 ---
+Student name: Amit Hayun ,Bar Loup                                                          
+Academic advisor: Dr .Marina Litvak 
+
+
 Provide a Deep Learning-Based real-time solution for nursing homes and hospitals for detecting cases of abuse in the elderly population by analyzing security camera frames and performing real-time forecasting using three machine learning models YOLO, DeepSort, ADS
 
 ## Table of contents
@@ -165,8 +169,12 @@ output
 
 ## Reference
 ---
-- [Yolo_v3] (https://github.com/qqwweee/keras-yolo3)
-- [DeepSort] (https://github.com/nwojke/deep_sort)
-- [RWF] (https://github.com/mchengny/RWF2000-Video-Database-for-Violence-Detection/blob/master/README.md)
+- Yolo_v3 (https://github.com/qqwweee/keras-yolo3)
+- DeepSort (https://github.com/nwojke/deep_sort)
+- RWF (https://github.com/mchengny/RWF2000-Video-Database-for-Violence-Detection/blob/master/README.md)
+
+'''
+Ming Cheng, Kunjing Cai, and Ming Li. "RWF-2000: An Open Large Scale Video Database for Violence Detection." arXiv preprint arXiv:1911.05913 (2019).
+'''
 
 
