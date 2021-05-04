@@ -39,6 +39,23 @@ Build prototype system ADS(Abuse detection system) for deploying models and test
 ### Our Main goal - provide an automated solution for detecting cases of abuse of the elderly.
 
 ## Model architecture
+---
+The model architecture is based on mobileNet SSD.
+And the highlight of this model is utilizing
+a branch of the optical flow channel to 
+help build a pooling mechanism.
+
+- Conv3D split into two channels -  RGB frame and Optical flows as shown in the figure below.
+- Relu activation is adopted at the end of the RGB channel. 
+- Sigmoid activation is adopted at the end of the Optical flow channel.
+- RGB and Optical Flow channels outputs are multiplied together and processed by a temporal max-pooling.
+- Merging Block is composed of basic 3D CNNs, used to process information after self learned temporal pooling. 
+- Fully-connected layers generate output.
+
+
+ <img src="https://user-images.githubusercontent.com/34807427/117047169-3c753000-ad1a-11eb-93a5-7825120596ca.png" width="550" height="400">
+
+
 
 
 
