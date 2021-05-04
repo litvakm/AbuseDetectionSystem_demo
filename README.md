@@ -6,6 +6,7 @@ Provide a Deep Learning-Based real-time solution for nursing homes and hospitals
 ---
 * [Project highlights](#Project-highlights)
 * [Introduction ](#Introduction)
+* [Data collection](#Data-collection)
 * [Model training && Evaluation](#Model-training-&&-Evaluation)
 * [Model architecture](#Model-architecture)
 * [Setup](#setup)
@@ -37,6 +38,25 @@ Build and train deep learning models(according to a standard ML approach) to aut
 Build prototype system ADS(Abuse detection system) for deploying models and test them in a real-time environment
 
 ### Our Main goal - provide an automated solution for detecting cases of abuse of the elderly.
+
+## Data collection
+Data collection
+In order to train deep learning models, the first step is data collection
+We build data collection pipe and gather abuse video from the web
+we collect 842 video clips after the filtering process
+
+
+We work according to a machine learning methodology
+1. search abuse video links online
+2. download the links
+3. convert the video to AVI format with FBS=30sec
+4. cut the video into 5-sec clips
+5. manual extracting from each video 5sec clips [3,4 clips for each video]
+6. create more videos by using 5 data argumentation techniques
+7. split the data to Train, Val, Test as shown in table2
+
+
+
 
 ## Model architecture
 ---
