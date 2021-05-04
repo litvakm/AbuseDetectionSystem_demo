@@ -6,10 +6,11 @@ Provide a Deep Learning-Based real-time solution for nursing homes and hospitals
 ---
 * [Project highlights](#Project-highlights)
 * [Introduction ](#Introduction)
-* [Model training && Evaluation](Model-training-&&-Evaluation)
-* [Model architecture](Model-architecture)
+* [Model training && Evaluation](#Model-training-&&-Evaluation)
+* [Model architecture](#Model-architecture)
 * [Setup](#setup)
 * [Input-Output examples](#Input-Output-examples)
+* [Reference](#Reference)
 
 
 ## Project highlights
@@ -62,5 +63,7 @@ input
 output
 
 ![output](https://user-images.githubusercontent.com/34807427/117035426-fa91bd00-ad0c-11eb-93ff-6504835bee3e.gif)
+
+## Reference
 
 
