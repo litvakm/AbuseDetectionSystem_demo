@@ -144,6 +144,7 @@ Stochastic gradient descent (SGD) and Adam
 
 
 ## System overview
+---
 ![ads overview2](https://user-images.githubusercontent.com/34807427/117057636-5ddc1900-ad26-11eb-9b71-d6344bd0dc78.png)
 
 
