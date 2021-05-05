@@ -162,7 +162,7 @@ Stochastic gradient descent (SGD) and Adam
  #### EX-1     
  <img src="https://user-images.githubusercontent.com/34807427/117035434-fcf41700-ad0c-11eb-9e6f-c0c6d542f3ef.gif" width="350" height="350"> <img src="https://user-images.githubusercontent.com/34807427/117035426-fa91bd00-ad0c-11eb-93ff-6504835bee3e.gif" width="350" height="350">
 
-width="350" height="350"
+
  #### EX-2     
  <img src="https://user-images.githubusercontent.com/34807427/117101865-cc00fa00-ad7f-11eb-961f-268a2d9f0127.gif" width="350" height="350"> <img src="https://user-images.githubusercontent.com/34807427/117101873-cefbea80-ad7f-11eb-884c-61c8a8291c83.gif" width="350" height="350">
 
