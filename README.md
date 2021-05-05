@@ -2,7 +2,7 @@
 ---
 #### Project creators
 - Amit Hayun [amitos684@gmail.com](amitos684@gmail.com)
-- Bar Loup [barloupo@gmail.com](barloupo@gmail.com)
+- Bar Loupo [barloupo@gmail.com](barloupo@gmail.com)
                     
                     
 #### Academic advisor:
