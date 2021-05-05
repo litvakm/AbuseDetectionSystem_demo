@@ -186,7 +186,7 @@ width="350" height="350"
 - First step downlaod yolo_v3 model
   [Yolo_v3 model](https://drive.google.com/file/d/1IbR2LtlqQxOr5w9u8yIeFYWtLJHksguF/view?usp=sharing)
 - Add the Yolo_v3.h5 to model data folder
-- Add the Yolo_v3.h5 path to [Yolo_v3.py](https://github.com/1amitos1/AbuseDetectionSystem_demo/blob/main/ADS_DEMO/yolo_v3.py)
+- Add the Yolo_v3.h5 path to [Yolo_v3.py](https://github.com/1amitos1/AbuseDetectionSystem_demo/blob/main/ADS_DEMO/yolo_v3.py) in __init__ function
 ```
 self.model_path = r'./model_data/yolov3_model.h5'
 ```
@@ -195,7 +195,6 @@ self.model_path = r'./model_data/yolov3_model.h5'
 ### In ADS_pipeLine.py change to following 
 - provide main_folder_output path
 - provide src video input path
-- 
 ```
 main_folder_output = r""
 src_video_input = r""
@@ -204,6 +203,18 @@ ads_wights_path = r".\Model_to_test\model_json_format\ADS_weights.h5"
 ads_model_path = r".\Model_to_test\model_json_format\ADS_model.json"
 deep_sort_model_path = ".\deep_sort/mars-small128.pb"
 ```
+### If you want to send an email alert to the user
+ - fill in the user_email to the address you want to send
+ ```
+ user_email = None
+ ```
+ - go to ADS_pipeline.py in the send_email_alert function
+ 
+```
+ fromaddr = "<your email account>"
+ EMAIL_PASSWORD ="<your email password>"
+```
+
 
 ## Reference
 ---
