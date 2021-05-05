@@ -141,6 +141,11 @@ Stochastic gradient descent (SGD) and Adam
 ![email](https://user-images.githubusercontent.com/34807427/117056968-93cccd80-ad25-11eb-9c8d-bd402e0fe378.png)
 
 
+
+## System overview
+![ads overview2](https://user-images.githubusercontent.com/34807427/117057636-5ddc1900-ad26-11eb-9b71-d6344bd0dc78.png)
+
+
 ## Input-Output examples
 ---
 input
@@ -151,10 +156,6 @@ input
 output
 
 ![output](https://user-images.githubusercontent.com/34807427/117035426-fa91bd00-ad0c-11eb-93ff-6504835bee3e.gif)
-
-
-## System overview
-![ads overview2](https://user-images.githubusercontent.com/34807427/117057636-5ddc1900-ad26-11eb-9b71-d6344bd0dc78.png)
 
 
 
