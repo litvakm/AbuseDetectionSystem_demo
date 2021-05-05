@@ -192,11 +192,18 @@ self.model_path = r'./model_data/yolov3_model.h5'
 ```
 
 
-- In ADS_pipeLine.py 
-In ADS_pipeLine.py, change to following 
-1- provide main_folder_output path
-2-provide src video input path
-
+### In ADS_pipeLine.py change to following 
+- provide main_folder_output path
+- provide src video input path
+- 
+```
+main_folder_output = r""
+src_video_input = r""
+user_email = None
+ads_wights_path = r".\Model_to_test\model_json_format\ADS_weights.h5"
+ads_model_path = r".\Model_to_test\model_json_format\ADS_model.json"
+deep_sort_model_path = ".\deep_sort/mars-small128.pb"
+```
 
 ## Reference
 ---
