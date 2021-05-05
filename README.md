@@ -160,7 +160,7 @@ Stochastic gradient descent (SGD) and Adam
 ---
 
  #### EX-1     
- <img src="https://user-images.githubusercontent.com/34807427/117035434-fcf41700-ad0c-11eb-9e6f-c0c6d542f3ef.gif" width="350" height="350"> <img src="https://user-images.githubusercontent.com/34807427/117035426-fa91bd00-ad0c-11eb-93ff-6504835bee3e.gif"width="350" height="350">
+ <img src="https://user-images.githubusercontent.com/34807427/117035434-fcf41700-ad0c-11eb-9e6f-c0c6d542f3ef.gif" width="350" height="350"> <img src="https://user-images.githubusercontent.com/34807427/117035426-fa91bd00-ad0c-11eb-93ff-6504835bee3e.gif" width="350" height="350">
 
 width="350" height="350"
  #### EX-2     
@@ -170,7 +170,7 @@ width="350" height="350"
 
 
  #### EX-3     
- <img src="https://user-images.githubusercontent.com/34807427/117101927-e9ce5f00-ad7f-11eb-9226-a19eee618fdc.gif" width="350" height="350"> <img src="https://user-images.githubusercontent.com/34807427/117101936-eb982280-ad7f-11eb-8bdb-6967b9af0967.gif"width="350" height="350">
+ <img src="https://user-images.githubusercontent.com/34807427/117101927-e9ce5f00-ad7f-11eb-9226-a19eee618fdc.gif" width="350" height="350"> <img src="https://user-images.githubusercontent.com/34807427/117101936-eb982280-ad7f-11eb-8bdb-6967b9af0967.gif" width="350" height="350">
 
 
 
