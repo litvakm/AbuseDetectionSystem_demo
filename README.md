@@ -1,7 +1,11 @@
 # Abuse Detection System
 ---
-Student name: Amit Hayun ,Bar Loup                                                          
-Academic advisor: Dr .Marina Litvak 
+- Amit Hayun [amitos684@gmail.com](amitos684@gmail.com)
+- Bar Loup [barloupo@gmail.com](barloupo@gmail.com)                                               
+Academic advisor:
+- Dr .Marina Litvak  [litvak.marina@gmail.com](litvak.marina@gmail.com)
+- Dr .Irina Raviev  [irinar@ac.sce.ac.il](irinar@ac.sce.ac.il)
+
 
 
 Provide a Deep Learning-Based real-time solution for nursing homes and hospitals for detecting cases of abuse in the elderly population by analyzing security camera frames and performing real-time forecasting using three machine learning models YOLO, DeepSort, ADS
