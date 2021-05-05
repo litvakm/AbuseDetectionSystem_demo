@@ -172,8 +172,12 @@ output
 - DeepSort (https://github.com/nwojke/deep_sort)
 - RWF (https://github.com/mchengny/RWF2000-Video-Database-for-Violence-Detection/blob/master/README.md)
 
-'''
-$ Ming Cheng, Kunjing Cai, and Ming Li. "RWF-2000: An Open Large Scale Video Database for Violence Detection." arXiv preprint arXiv:1911.05913 (2019).
-'''
 
+```
+@article{DeepFashion2,
+  author = {Ming Cheng, Kunjing Cai, and Ming Li},
+  title={RWF-2000: An Open Large Scale Video Database for Violence Detection},
+  year={2019}
+}
+```
 
