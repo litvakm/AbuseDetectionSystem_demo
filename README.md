@@ -85,9 +85,6 @@ help build a pooling mechanism.
 
 
 
-## System overview
-![ads overview2](https://user-images.githubusercontent.com/34807427/117057636-5ddc1900-ad26-11eb-9b71-d6344bd0dc78.png)
-
 
 ## Model training && Evaluation 
 ---
@@ -145,6 +142,9 @@ Stochastic gradient descent (SGD) and Adam
 
 ![email](https://user-images.githubusercontent.com/34807427/117056968-93cccd80-ad25-11eb-9c8d-bd402e0fe378.png)
 
+
+## System overview
+![ads overview2](https://user-images.githubusercontent.com/34807427/117057636-5ddc1900-ad26-11eb-9b71-d6344bd0dc78.png)
 
 
 
