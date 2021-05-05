@@ -768,13 +768,15 @@ class ADS_pipLine():
         return self.Abuse_event_path
 
 
-main_folder_output = r" "
+main_folder_output = r""
+src_video_input = r""
+user_email = None
 ads_wights_path = r".\Model_to_test\model_json_format\ADS_weights.h5"
 ads_model_path = r".\Model_to_test\model_json_format\ADS_model.json"
-deep_sort_model_path =".\deep_sort/mars-small128.pb"
-user_email = None
+deep_sort_model_path = ".\deep_sort/mars-small128.pb"
 
-src_video_input = r'C:\Users\amit hayoun\Desktop\FINAL_PROJECR_REPO\AbuseDetectionSystem-main\CUSTOMER_VIDEO1__.mp4'
+
+
 pipeline = ADS_pipLine(main_folder_output, ads_wights_path, ads_model_path, deep_sort_model_path, src_video_input,user_email)
 pipeline.run_Demo()
 
