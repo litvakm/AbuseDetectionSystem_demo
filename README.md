@@ -158,13 +158,29 @@ Stochastic gradient descent (SGD) and Adam
 
 ## Input-Output examples
 ---
-input
-     
-<img src="https://user-images.githubusercontent.com/34807427/117035434-fcf41700-ad0c-11eb-9e6f-c0c6d542f3ef.gif" width="250" height="250"> <img src="https://user-images.githubusercontent.com/34807427/117035426-fa91bd00-ad0c-11eb-93ff-6504835bee3e.gif" width="250" height="250">
 
-output
+ #### EX-1     
+ <img src="https://user-images.githubusercontent.com/34807427/117035434-fcf41700-ad0c-11eb-9e6f-c0c6d542f3ef.gif" width="250" height="250"> <img src="https://user-images.githubusercontent.com/34807427/117035426-fa91bd00-ad0c-11eb-93ff-6504835bee3e.gif" width="250" height="250">
 
-<img src="https://user-images.githubusercontent.com/34807427/117035426-fa91bd00-ad0c-11eb-93ff-6504835bee3e.gif" width="250" height="250">
+
+ #### EX-2     
+ <img src="https://user-images.githubusercontent.com/34807427/117101865-cc00fa00-ad7f-11eb-961f-268a2d9f0127.gif" width="250" height="250"> <img src="https://user-images.githubusercontent.com/34807427/117101873-cefbea80-ad7f-11eb-884c-61c8a8291c83.gif" width="250" height="250">
+
+
+
+
+ #### EX-3     
+ <img src="https://user-images.githubusercontent.com/34807427/117101927-e9ce5f00-ad7f-11eb-9226-a19eee618fdc.gif" width="250" height="250"> <img src="https://user-images.githubusercontent.com/34807427/117101936-eb982280-ad7f-11eb-8bdb-6967b9af0967.gif" width="250" height="250">
+
+
+
+ #### EX-4     
+ <img src="https://user-images.githubusercontent.com/34807427/117102027-16827680-ad80-11eb-9e21-430f2e0b27f3.gif" width="250" height="250"> <img src="(https://user-images.githubusercontent.com/34807427/117102031-184c3a00-ad80-11eb-9448-1921a4c8772c.gif" width="250" height="250">
+
+
+
+
+
 
 
 
