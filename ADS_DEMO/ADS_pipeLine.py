@@ -86,16 +86,16 @@ class ADS_pipLine():
         this function load the following model:
         1-ADS MODEL
         2-DEEP SORT MODEL
-        :return:
+        :return None:
         """
         #TODO DELETE THIS PATH
         # load_ads_model
-        json_file = open(r"C:\Users\amit hayoun\Desktop\FINAL_PROJECR_REPO\AbuseDetectionSystem-main\Model_to_test\model_json_format\ADS_model.json", 'r')
+        json_file = open(r".\Model_to_test\model_json_format\ADS_model.json", 'r')
         loaded_model_json = json_file.read()
         json_file.close()
         model = model_from_json(loaded_model_json)
         # load weights into new model
-        model.load_weights(r"C:\Users\amit hayoun\Desktop\FINAL_PROJECR_REPO\AbuseDetectionSystem-main\Model_to_test\model_json_format\ADS_weights.h5")
+        model.load_weights(r"\.Model_to_test\model_json_format\ADS_weights.h5")
         adam = Adam(learning_rate=0.001, beta_1=0.9, beta_2=0.999, epsilon=1e-07, amsgrad=False)
         model.compile(optimizer=adam, loss='categorical_crossentropy', metrics=['accuracy'])
         self.ads_model = model
@@ -118,7 +118,6 @@ class ADS_pipLine():
         file_name = "V_sample_" + str(sample_number) + "_.avi"
         video_dst_path = os.path.join(self.Sampling_video_folder_path, file_name)
         fourcc = cv2.VideoWriter_fourcc(*'MJPG')
-        # fourcc = cv2.VideoWriter_fourcc(*'X264')
         out = cv2.VideoWriter(video_dst_path, fourcc, 15, (w, h))
         for frame in frame_set:
             out.write(frame)
@@ -648,7 +647,8 @@ class ADS_pipLine():
         :param absulutefilepath: full path to video file
         :return: None
         """
-        fromaddr = "absabusedetection@gmail.com"
+        fromaddr = " "
+        EMAIL_PASSWORD = " "
 
         # instance of MIMEMultipart
         msg = MIMEMultipart()
@@ -694,7 +694,8 @@ class ADS_pipLine():
         s.starttls()
 
         # Authentication
-        s.login(fromaddr, "ABS1234amitBAR")
+        EMAIL_PASSWORD = " "
+        s.login(fromaddr, EMAIL_PASSWORD)
 
         # Converts the Multipart msg into a string
         text = msg.as_string()
@@ -719,12 +720,10 @@ class ADS_pipLine():
         # dd/mm/YY H:M:S
         dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
         print("Start time =", dt_string)
-        # todo activate this function self.video_sampling()
-        # # Step -1 sampling video
-       # self.video_sampling()
+        
+        # Step -1 sampling video
+        self.video_sampling()
         print("\t[+][+] Done Step 1\n sample 3 video clips\n ")
-        # deepSort and yolo processing
-        # print(self.Sampling_video_folder_path)
         # Step -2
         index = 1
         for v_clips in os.listdir(self.Sampling_video_folder_path):
@@ -737,16 +736,13 @@ class ADS_pipLine():
         index = 1
         for v_clips in os.listdir(self.Ads_preprocessing_path):
             full_video_path = os.path.join(self.Ads_preprocessing_path, v_clips)
-            # full_video_path = r"C:\Users\amit hayoun\Desktop\MAIN_ADS_demo\yolo_deepSort_processing\TEMP_1.avi"
-            #report = self.Ads_pipeline(full_video_path, index)
+    
             report = self.Ads_run_model_pipeline(full_video_path, index)
             fight = report[0]
             not_fight = report[1]
             state = report[2]
 
             # if true --the ads model identified abuse event
-            #todo delete satae=True
-            state = True
             if state:
                 print(
                     f"[+][+]The model predicted that the video contained an abuse incident\nProbability FIGHT={fight}\nNotFight = {not_fight}\n")
@@ -772,14 +768,13 @@ class ADS_pipLine():
         return self.Abuse_event_path
 
 
-main_folder_output = r"C:\Users\amit hayoun\Desktop\test_ads"
-ads_wights_path = r"E:\FINAL_PROJECT_DATA\ADS_DEMO_PART_2\Model_to_test\model_json_format\ADS_weights.h5"
-ads_model_path = r"E:\FINAL_PROJECT_DATA\ADS_DEMO_PART_2\Model_to_test\model_at_epoch_24.h5"
+main_folder_output = r" "
+ads_wights_path = r".\Model_to_test\model_json_format\ADS_weights.h5"
+ads_model_path = r".\Model_to_test\model_json_format\ADS_model.json"
 deep_sort_model_path =".\deep_sort/mars-small128.pb"
-#deep_sort_model_path = r"E:\FINAL_PROJECT_DATA\ADS_DEMO_PART_2\model_data\mars-small128.pb"
-# src_video_input = r'rtsp://barloupo@gmail.com:ziggy2525!@192.168.1.9:554/stream2'
+user_email = None
+
 src_video_input = r'C:\Users\amit hayoun\Desktop\FINAL_PROJECR_REPO\AbuseDetectionSystem-main\CUSTOMER_VIDEO1__.mp4'
-user_email = "amitos684@gmail.com"
 pipeline = ADS_pipLine(main_folder_output, ads_wights_path, ads_model_path, deep_sort_model_path, src_video_input,user_email)
 pipeline.run_Demo()
 
