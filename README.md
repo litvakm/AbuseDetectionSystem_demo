@@ -174,10 +174,27 @@ output
 
 
 ```
-@article{DeepFashion2,
+@article{RWF-2000,
   author = {Ming Cheng, Kunjing Cai, and Ming Li},
   title={RWF-2000: An Open Large Scale Video Database for Violence Detection},
   year={2019}
+}
+```
+
+
+```
+@article{DeepSort,
+  author = { B. A. &. P. D. Wojke},
+  title={Simple online and realtime tracking with a deep association metric},
+  year={2017}
+}
+```
+
+```
+@article{YOLOv3,
+  author = {Joseph Redmon },
+  title={YOLOv3: An Incremental Improvement},
+  year={2018}
 }
 ```
 
