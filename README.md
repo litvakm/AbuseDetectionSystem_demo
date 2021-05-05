@@ -11,12 +11,12 @@ Provide a Deep Learning-Based real-time solution for nursing homes and hospitals
 * [Project highlights](#Project-highlights)
 * [Introduction ](#Introduction)
 * [Data collection](#Data-collection)
-* [Model training && Evaluation](#Model-training-&&-Evaluation)
 * [Model architecture](#Model-architecture)
-* [ADS PIPELINE Demo](#ADS-PIPELINE-Demo)
+* [Model training && Evaluation](#Model-training-&&-Evaluation)
 * [System overview](#System-overview)
-* [Setup](#setup)
+* [ADS PIPELINE Demo](#ADS-PIPELINE-Demo)
 * [Input-Output examples](#Input-Output-examples)
+* [Setup](#setup)
 * [Reference](#Reference)
 
 
@@ -84,6 +84,11 @@ help build a pooling mechanism.
  <img src="https://user-images.githubusercontent.com/34807427/117047169-3c753000-ad1a-11eb-93a5-7825120596ca.png" width="550" height="400">
 
 
+
+## System overview
+![ads overview2](https://user-images.githubusercontent.com/34807427/117057636-5ddc1900-ad26-11eb-9b71-d6344bd0dc78.png)
+
+
 ## Model training && Evaluation 
 ---
 ### Model training
@@ -141,9 +146,6 @@ Stochastic gradient descent (SGD) and Adam
 ![email](https://user-images.githubusercontent.com/34807427/117056968-93cccd80-ad25-11eb-9c8d-bd402e0fe378.png)
 
 
-
-## System overview
-![ads overview2](https://user-images.githubusercontent.com/34807427/117057636-5ddc1900-ad26-11eb-9b71-d6344bd0dc78.png)
 
 
 ## Input-Output examples
