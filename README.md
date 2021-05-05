@@ -181,16 +181,21 @@ width="350" height="350"
 
 
 
-
-
-
-
 ## Setup  
 ---
-- first step downlaod yolo_v3 model
+- First step downlaod yolo_v3 model
   [Yolo_v3 model](https://drive.google.com/file/d/1IbR2LtlqQxOr5w9u8yIeFYWtLJHksguF/view?usp=sharing)
-- Add the model to model data file
+- Add the Yolo_v3.h5 to model data folder
+- Add the Yolo_v3.h5 path to [Yolo_v3.py](https://github.com/1amitos1/AbuseDetectionSystem_demo/blob/main/ADS_DEMO/yolo_v3.py)
+```
+self.model_path = r'./model_data/yolov3_model.h5'
+```
 
+
+- In ADS_pipeLine.py 
+In ADS_pipeLine.py, change to following 
+1- provide main_folder_output path
+2-provide src video input path
 
 
 ## Reference
