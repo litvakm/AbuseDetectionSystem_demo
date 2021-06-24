@@ -11,7 +11,7 @@
 
 
 
-Provide a Deep Learning-Based real-time solution for nursing homes and hospitals for detecting cases of abuse in the elderly population by analyzing security camera frames and performing real-time forecasting using three machine learning models YOLO, DeepSort, ADS
+This project provides a deep learning-based real-time solution for nursing homes and hospitals. The elder Abuse Detection System (ADS) detects cases of the elder abuse by analyzing security camera frames and performing real-time forecasting using three machine learning models YOLO, DeepSort, and Flow Gated Network.
 
 ## Table of contents
 ---
