@@ -29,47 +29,39 @@ This project provides a deep learning-based real-time solution for nursing homes
 
 ## Project highlights
 ---
--	Creating a new novel dataset ADS-dataset that contain worldwide videos
-clips of abuse capture by surveillance cameras in the real-world scenes 
+-	A new dataset that contains videos clips of elder abuse captured by surveillance cameras in the real-world scenes 
 
--	Design and implemented ML pipeline for video raw data to generate features, data augmentation techniques, and resampled datasets for model training.
+-	ML pipeline for feature generation from the video raw data, data augmentation and resampling for model training.
 
--	Build and train a machine learning model[ADS] based on MobileNet-SSD architecture with 3D-CNN and two-stream method [RGB, OPT].
-Training and evaluation of the model using AWS-SageMaker and TensorFlow frameworks. Achieved 87% in F1-score on DCSASS Abuse Dataset and 84%  on ADS Dataset.
+-	A new supervised model based on MobileNet-SSD architecture with 3D-CNN and two-stream channels [RGB, OPT].
+Training and evaluation of the model using AWS-SageMaker and TensorFlow frameworks. Achieved 87% in F1-score on the DCSASS Abuse Dataset and 84%  on our (ADS) Dataset.
 
--	Combine all models to an overall system and deploying the system in the Streamlit web app that enables the user to get real-time notification alerts
+-	A system combining 3 deep NN-based models---for object detection, trajectory prediction, and frame classification---and deploying the system in the Streamlit web app that enables the user to get real-time notification alerts
 when an abuse event capture by the security camera.
 
-## Introduction 
----
-This project is defined as research(60%)\development(40%).
+## Introduction
 
-- Research 
-Build and train deep learning models(according to a standard ML approach) to automatically identify abuse event capture by security camera
+This project aims at building and training deep learning models to automatically identify abuse event captured by security cameras
 
-- Development
-Build prototype system ADS(Abuse detection system) for deploying models and test them in a real-time environment
-
-### Our Main goal - provide an automated solution for detecting cases of abuse of the elderly.
+A prototype system elder Abuse Detection System (ADS) is developed and tested in a real-time environment
 
 ## Data collection
 ---
 Data collection
-In order to train deep learning models, the first step is data collection
-We build data collection pipe and gather abuse video from the web
-we collect 842 video clips after the filtering process
+We build data collection script (crawler) gathering abuse video from the web
+Our dataset contains 842 video clips (after cleaning the irrelevant samples)
 
 
-We work according to a machine learning methodology
+The data collection was performed by the following steps:
 1. search abuse video links online
 2. download the links
 3. convert the video to AVI format with FBS=30sec
 4. cut the video into 5-sec clips
-5. manual extracting from each video 5sec clips [3,4 clips for each video]
+5. manually extract from each video 5 sec clips [3-4 clips for each video]
 6. create more videos by using 5 data argumentation techniques
-7. split the data to Train, Val, Test as shown in table2
+7. split the data to Train, Validation, and Test sets as shown in Table 2
 
-- Method and DB expleind -[method and DB expleind.pdf](https://github.com/1amitos1/AbuseDetectionSystem_demo/files/6423235/method.and.db.expleind.pdf)
+- Method and DB explained -[Method and DB explained.pdf](https://github.com/1amitos1/AbuseDetectionSystem_demo/files/6423235/method.and.db.expleind.pdf)
 
  <img src="https://user-images.githubusercontent.com/34807427/117050368-f15d1c00-ad1d-11eb-85eb-d21343f74e55.png" width="300" height="300">
 
